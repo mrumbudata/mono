@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	message := greetMe("master")
+	message := greetMe("test1")
 	fmt.Println(message)
 }
 
