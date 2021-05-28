@@ -30,7 +30,7 @@ pipeline {
        
 
        
-            stage('Build and Deploy Branch Development ') {
+            stage('Build and Deploy Branch testpush ') {
 
                        when {
                            branch "testpush"
@@ -41,7 +41,7 @@ pipeline {
                        steps {
 
                           sh '''
-                          echo "branch push"
+                          echo "branch push11"
                           '''
  
                        }
