@@ -5,14 +5,7 @@ triggers {
   }
 stages {
 
-		stage('Unit Test') {
-			  steps{
-				 sh '''
-					echo "unit test goes here"
-				 '''
-			   }
-		   }
-
+	
 
 		stage('Static Analysis') {
 			  steps{
