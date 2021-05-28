@@ -28,7 +28,7 @@ stages {
 		stage('Build and Deploy Branch Development ') {
 
 			   when {
-                           branch "dev"
+                           branch "testpush"
                        }
 	  
 
@@ -39,7 +39,7 @@ stages {
 
 				
             sh '''
-                echo "mergebranchdev"
+                echo "mergebranchtestpush"
             '''
 					   
 				   }
