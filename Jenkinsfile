@@ -25,7 +25,7 @@ stages {
 
 				
             sh '''
-                echo "mergebranchtestpush5"
+                echo "mergebranchtestpush6"
             '''
 					   
 				   }
