@@ -3,6 +3,7 @@ agent any
 triggers {
     githubPush()
   }
+  
 stages {
 
 	
