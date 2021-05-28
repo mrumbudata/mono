@@ -7,14 +7,7 @@ stages {
 
 	
 
-		stage('Static Analysis') {
-			  steps{
-				 sh '''
-					echo "SonarQube Static Analysis goes here"
-                
-				 '''
-			   }
-		   }
+		
 
 
 
