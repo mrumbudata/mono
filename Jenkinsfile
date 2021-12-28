@@ -6,7 +6,6 @@ pipeline {
                 changeset "**mono/svc1/*.*"
             }
             steps {
-                echo 'svc1cuy'
             }
         }
         stage('build svc2') {
